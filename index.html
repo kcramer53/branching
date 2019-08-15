@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Pick a Pet</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.4.1.js">
-        </script>
-    <script src="js/scripts.js">
-    </script>
-  </head>
-  <body>
-    <div class="container">
+  <html lang="en" dir="ltr">
+    <head>
+      <title>Pick a Pet</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="js/jquery-3.4.1.js"></script>
+      <script src="js/scripts.js"></script>
+      <meta charset="utf-8">
+    </head>
+    <body>
+      <div class="container">
+        <h1>Welcome</h1>
+        <h2>Pet adoption organization.</h2>
+        <div>
+          <form id="formOne">
+          Would you like to have a pet (if yes, check the box): <input type="checkbox" value="Y"><br>
+          Hell no I don't want a pet (check the box):<input type="checkbox" value="N"><br>
+        <label for="person1">Enter your age:</label>
+        <input id="age" class="form-control" type="text">
 
-  <p>Welcome! Have you come here to pick out a pet?</p>
-  <br>
+          <button type="submit" class="btn btn-primary">Press here</button>
+      </form>
+      </div>
+<div id="pass-age">
   <p>Pick the answer that best matches what you envision as the ideal pet experience, and we'll recommend the best pet for you.</p>
 
   <div class="radio">
@@ -35,8 +43,8 @@
     We'll do everything together! Bond! Eat together! Go on adventures together. We weill never be separated.
   </label>
 </div>
-<div id="analysis">
-<button type="button" class="btn btn-primary">Press here to pick your pet</button>
+<button id="button" type="button" class="btn btn-primary">Press here to pick your pet</button>
+
 </div>
 
 <div id="cookie2">

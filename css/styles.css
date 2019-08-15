@@ -1,5 +1,8 @@
-#cookie2, #imagine2, #scooby2 {
+#pass-age, #cookie2, #imagine2, #scooby2 {
   display: none;
+}
+h1, h2 {
+  text-align: center;
 }
 
 #cookie2, #imagine2, #scooby2 {
