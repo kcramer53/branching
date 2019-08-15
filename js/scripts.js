@@ -1,14 +1,16 @@
 
 
 $(document).ready(function(){
-  console.log(1);
   $("#formOne").submit(function(){
     event.preventDefault();
-    console.log(2);
     var age = parseFloat($("input#age").val());
     console.log(age);
-    var desire = $(":checkbox").val();
+    var desire = $("input:checkbox[name=desire]:checked").val();
     console.log(desire);
+    // if (age >= 18 && desire = ""      ) {
+    //
+    // }
+
 
 });
 
